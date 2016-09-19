@@ -18,20 +18,24 @@ body {
   font-size: 100%;
   font-family: "HelveticaNeue-Thin", sans-serif;
   color: #1F1F21;
-  background-color: white;
+
 }
 
 body, html {
   height: 100%;
+  background-color: #1F1F21;
 }
 
 a {
-  color: #3e3947;
   text-decoration: none;
 }
 
 img {
   max-width: 100%;
+}
+
+li {
+  color: gray
 }
 
 /* --------------------------------
@@ -68,29 +72,32 @@ Main components
 .cd-section:nth-of-type(even) p {
   color: white;
 }
-.cd-section h1, .cd-section p {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 90%;
-  max-width: 768px;
-  text-align: center;
-}
+
 .cd-section h1 {
-  color: white;
-  font-weight: 300;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-family: HelveticaNeue-Bold;
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 3.96px;
 }
-.cd-section p {
-  line-height: 1.6;
+.cd-section h3 {
+  font-family: HelveticaNeue-Thin;
+  font-size: 16px;
+  color: gray;
+  letter-spacing: 8.68px;
+  margin-top: 29px;
+}
+
+.cd-section h4 {
+  font-family: HelveticaNeue-Thin;
+  font-size: 20px;
+  margin-top: 5px;
+  color: gray
+}
+
+.cd-section h5 {
+  font-family: HelveticaNeue-Thin;
+  font-size: 18px;
+  margin-top: 15px;
 }
 @media only screen and (min-width: 768px) {
   .cd-section h1 {
