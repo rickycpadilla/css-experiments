@@ -4,5 +4,14 @@
   },
   "hosting": {
     "public": "public"
-  }
+  },
+  "redirects": [ {
+  	"source" : "/sesame",
+  	"destination" : "https://github.com/rickycpadilla/sesame-app",
+  	"type" : 302
+  }, {
+  	"source" : "/firebase/*",
+  	"destination" : "https://www.firebase.com",
+  	"type" : 302
+  } ]
 }
